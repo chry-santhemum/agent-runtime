@@ -1,0 +1,17 @@
+# Harness runtime directories
+.harness/workspaces/**
+.harness/runs/**
+.harness/bus/**
+.harness/auth/**
+.harness/caches/**
+
+# Private memory
+CLAUDE.local.md
+AGENTS.override.md
+
+# Temp contract dirs
+.harness_tmp_contracts/**
+
+# Python
+__pycache__/
+*.pyc
